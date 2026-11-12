@@ -12,9 +12,6 @@
 ;   - On standard/laptop screens, scales width to 90% and height to 90%.
 ;   - Moves the window to the exact center of the primary screen.
 ^!R:: {
-  ; MsgBox "Screen Width: " A_ScreenWidth "`nScreen Height: " A_ScreenHeight
-  ; MsgBox A_ScreenWidth > 2560 ? "sim" : "não"
-
   ; Base screen resolution thresholds (in pixels).
   ; Change these values based on your laptop or primary screen model's native resolution
   ; (e.g., 1920x1080 for FHD, 2560x1440 for QHD, or 2560x1600 for 16:10 QHD+ laptops).
